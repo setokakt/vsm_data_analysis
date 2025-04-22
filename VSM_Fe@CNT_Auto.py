@@ -14,8 +14,8 @@ num_files = int(input("回数を入力してください（例: 16）: "))
 
 # --- ファイルパスの設定 ---
 template_excel = "VSM_Fe@CNT_テンプレート.xlsx"    # 元のExcelファイル（変更しない）
-text_folder = r"C:\Users\ne4\OneDrive - 三重大学\ドキュメント\三重大\ナノエレクトロニクス研究室\自動処理\テキストファイル"
-save_directory = r"C:\Users\ne4\OneDrive - 三重大学\ドキュメント\三重大\ナノエレクトロニクス研究室\自動処理\エクセルファイル"
+text_folder = r"C:\自動処理\テキストファイル"
+save_directory = r"C:\自動処理\エクセルファイル"
 
 for number in range(start_number, start_number + num_files):
     # テキストファイルと新規Excelファイルのパスを作成
